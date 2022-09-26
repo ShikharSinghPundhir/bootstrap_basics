@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BlogTechSpot</title>
+
+	<!-- Bootstrap 5 css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<!-- style css  -->
+	<link rel="stylesheet" href="css/blog.css">
+
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- font awesome css link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<!-- Navigation Section Start -->
+	<section id="header ">
+		<nav class="navbar navbar-expand-lg bg-white fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<!-- <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="headerimg w-25"> -->
+					<h2>TechBlogspot</h2>
+				</a>
+				<button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<!-- <span class="navbar-toggler-icon"></span> -->
+					<i class="fa-solid fa-bars " style="color: yellow;"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active " aria-current="page" routerLink="/"
+								style="color:#fbab29">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link a1" routerLink="/about">PRODUCTS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link a1" routerLink="/brands">TESTIMONIALS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link   a1" routerLink="/ourteam">CONTACT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link  a1" routerLink="/pressrelease">SPECIAL</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav><!-- Nav bar end -->
+		<!-- home image -->
+	</section>
+	<!-- Navigation Section End -->
+	<!-- Heading Section -->
+	<section id="heading">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-12 ">
+					<img src="https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
+						class="img-fluid w-100 h-75">
+					<h1 class="heading_1">TechBlogspot</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Heading section end -->
+	<!-- slider section Start -->
+	<section id="slider">
+		<div class="row mt-5">
+			<div class="col-md-1">
+
+			</div>
+				<div class="col-md-10">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+						<div class="carousel-indicators">
+						  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+						  <div class="carousel-item active h-75">
+							<img src="https://i.gadgets360cdn.com/large/5g_internet_pixabay_1655940268189.jpg?downsize=950:*" class="d-block w-100 " alt="...">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>5G Services</h5>
+							  <p>Rollout Expected 'Very Soon', Aiming for Pan-India Coverage in 2 years, IT Minister Says</p>
+							</div>
+						  </div>
+						  <div class="carousel-item h-75">
+							<img src="https://i.gadgets360cdn.com/large/Bitcoin_new_september_unsplash_large_1664175335643.jpg?downsize=950:*" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Bitcoin</h5>
+							  <p>Remains Below $19,000 as Ether, Other Altcoins Continue Slide Over the Weekend</p>
+							</div>
+						  </div>
+						  <div class="carousel-item h-75">
+							<img src="https://i.gadgets360cdn.com/large/iphone_14_pro_max_camera_1663665783464.jpg?downsize=950:*" class="d-block w-100 h-75" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>iPhone 14</h5>
+							  <p>Becomes Latest Smartphone to Be Manufactured by Apple in India</p>
+							</div>
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					  </div>
+				</div>
+			
+		</div>
+		
+	</section>
+	<!-- slider section End -->
+	<!-- Blogs Section Start -->
+	<section id="blogs">
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-info" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/GPS-navigation-India.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">NavIC </h5>
+						  		<p class="card-text"> Home-grown navigation system jolts smartphone giants</p>
+						  		<div class="text-center">
+									<a href="#" class="btn btn-primary">Read More</a>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-info" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/Netflix.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">Netflix tips and tricks</h5>
+						  		<p class="card-text">How to manage your account better</p>
+						  		<div class="text-center">
+									<a href="#" class="btn btn-primary">Read More</a>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-info" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/Apple-Watch-SE-2-fb.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">Apple Watch</h5>
+						  		<p class="card-text">SE 2 review: The ‘essential’ watch</p>
+						  		<div class="text-center">
+									<a href="#" class="btn btn-primary">Read More</a>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-warning" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/GPS-navigation-India.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">NavIC </h5>
+						  		<p class="card-text">Home-grown navigation system jolts smartphone giants</p>
+								<div class="text-center">
+						  			<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-warning" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/Netflix.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">Netflix tips and tricks</h5>
+						  		<p class="card-text">How to manage your account better</p>
+						  		<div class="text-center">
+									<a href="#" class="btn btn-primary">Read More</a>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-1">
+
+					</div>
+					<div class="col-md-10">
+						<div class="card bg-warning" style="width: 18rem;">
+							<img src="https://images.indianexpress.com/2022/09/Apple-Watch-SE-2-fb.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+						  		<h5 class="card-title">Apple Watch</h5>
+						  		<p class="card-text">SE 2 review: The ‘essential’ watch</p>
+						  		<div class="text-center">
+									<a href="#" class="btn btn-primary">Read More</a>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blogs Section End -->
+
+
+
+	<!-- bootsrap 5 js -->	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+	<!-- main JS -->
+	<script src="js/main.js"></script>
+</body>
